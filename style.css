@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
